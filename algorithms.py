@@ -1,10 +1,10 @@
 """01. Prime number"""
 
-# nums = range(1, 1000)
-#
-#
-# # print(list(nums))
-#
+nums = range(1, 1000)
+
+
+# print(list(nums))
+
 def is_prime(num):
     for x in range(2, num):
         if (num % x) == 0:
